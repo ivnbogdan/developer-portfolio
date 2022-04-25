@@ -4,8 +4,8 @@ export const greetings = {
   name: "Bogdan Ivanov",
   title: "Hello I'm Bogdan",
   description:
-    "I've been working as a Full Stack developer until 2017, and since then focused more on the Front-End part. So I guess I should be called a Front-End Developer now? Built multiple apps with Angular, lately got into React. Since end of 2021 started spending time and researching Blockchain, Web3, NFTs.",
-  resumeLink: "https://TODO",
+    "I've been working as a Full Stack developer until 2017, and since then focused more on the Front-End part. So I guess I should be called a Front-End Developer now? Built multiple apps with Angular, lately got into React. Since end of 2021 started spending time and researching Blockchain, Web3 and NFTs.",
+  resumeLink: "/files/Bogdan_Ivanov_CV.pdf",
   lottieAnimationFile: "/lottie/skills/development.json",
 };
 
