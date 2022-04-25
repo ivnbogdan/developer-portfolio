@@ -14,10 +14,10 @@ const EducationCard = ({ education }) => {
 								{education.schoolName}
 							</h5>
 							<h6>{education.subHeader}</h6>
-							<Badge color="info" className="mr-1">
+							<p className="description mt-1">{education.desc}</p>
+							<Badge color="info" className="mr-1 mb-4">
 								{education.duration}
 							</Badge>
-							<p className="description mt-3">{education.desc}</p>
 							<ul>
 								{education.descBullets
 									? education.descBullets.map((desc) => {

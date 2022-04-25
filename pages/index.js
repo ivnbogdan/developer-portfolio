@@ -19,19 +19,18 @@ export default function Home({ githubProfileData }) {
 		<div>
 			<SEO
 				data={{
-					title: "Hanzla Tauqeer",
+					title: "Bogdan Ivanov",
 					description:
-						"A passionate Full Stack Web Developer and Blockchain Developer.",
-					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-					url: "https://developer-portfolio-1hanzla100.vercel.app",
+						"Front-End Developer.",
+					image: "",
+					url: "",
 					keywords: [
-						"Hanzla",
-						"Hanzla Tauqeer",
-						"@1hanzla100",
-						"1hanzla100",
+						"Bogdan",
+						"Bogdan Ivanov",
+						"bog_ivn",
+						"0xBobby",
 						"Portfolio",
-						"Hanzla Portfolio ",
-						"Hanzla Tauqeer Portfolio",
+						"Bogdan Ivanov Portfolio ",
 					],
 				}}
 			/>
@@ -41,9 +40,6 @@ export default function Home({ githubProfileData }) {
 			<Proficiency />
 			<Education />
 			<Experience />
-			<Feedbacks />
-			<Projects />
-			<GithubProfileCard prof={githubProfileData} />
 		</div>
 	);
 }
